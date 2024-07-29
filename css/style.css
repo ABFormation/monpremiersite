@@ -1,0 +1,142 @@
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    text-align: center;
+
+}
+
+
+
+
+h1 {
+    
+    font-size: 2em;
+    text-align: center;
+
+}
+
+p {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    width: fit-content;
+    align-content: center;
+    margin: auto;
+}
+ 
+
+
+
+#cadre {
+    border: 1px solid red;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.container div {
+    margin: 10px; 
+    padding: 0px 5px;
+    border: 2px solid purple;
+    width: 300px;
+}
+
+
+table{
+  border-collapse: collapse
+}
+
+td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 300px;
+}
+
+
+.primary {
+    color: #2E5339;
+}
+
+.secondary {
+    color: #eb9d6f;
+}
+
+.tertiary {
+    color: #FF5666; 
+}
+
+.fond {
+    background-color: #ECE9E6;  /* fallback for old browsers */
+
+}
+
+.fond-secondary {
+    background-color: #FFCCC9;
+}
+
+@media screen and (max-width: 780px) {
+   p {
+    font-size: 8px;
+   }
+
+   .fond {
+    background-color: rgba(255, 166, 0, 0.326);
+   }
+}
+
+
+h1.secondary:hover {
+   animation: changeColor 2s infinite ease-in-out;
+}
+
+@keyframes changeColor {
+    from {
+        color: #eb9d6f;
+    }
+    to {
+        color: rgb(254, 252, 240);
+    }
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
+
+
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.02);
+    }
+}
+
+
+img:hover {
+    cursor: pointer; 
+    animation: zoomIn 0.3s forwards ease-out;
+}

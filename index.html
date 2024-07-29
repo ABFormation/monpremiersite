@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="fr">
+ <head>
+
+ <!-- meta données à destination du navigateur mais pas visible par les utilisateurs -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width" />
+   <title>Laura Dauzat, Développeuse</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+ </head>
+ <body class="fond primary">
+
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="logo">
+      </div>
+
+     <div class="titre">
+      <h1 class="secondary">Laura Dauzat</h1>
+     </div> 
+
+      
+      <nav>
+    
+          <ul>
+              <li><a href="#home">Accueil</a></li>
+              <li><a href="#about">À propos</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <div class="presentationcontainer">
+
+
+        <h2>Développeuse Web</h2>
+
+        <a href="http://www.google.com" target="_blank">Lien vers Google dans un nouvel onglet</a><br />
+        <a href="https://www.google.com" >Lien vers Google</a>
+
+          <div class="textedepresentation">
+
+            <!-- coucou je suis un commentaire -->
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a minus eligendi aliquam dolor tenetur ipsa ratione nobis commodi quo! Eum, voluptas itaque porro nemo voluptate perferendis eligendi fugiat praesentium!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde dolore, et dolorem natus enim cumque iure. Blanditiis similique autem, porro amet nobis cumque nostrum numquam! Iusto, sint commodi. Dicta!</p>
+            <p><strong>Texte en gras</strong> et <em>texte en italique</em>.</p>
+            <p>On peut mettre plusieurs phrases dans une seule balise. En revanche pour revenir à la ligne il faut changer de paragraphe.</p>
+      
+            <p>Avec ce type d’intégration, on perd beaucoup des avantages du CSS. Parmi ceux-ci, l’option de définir une commande unique qui s’appliquera, par exemple, à tous les éléments de *h1* dans le document HTML. Dans certaines circonstances, cela suppose également plus de travail de maintenance, car des interventions directes sur le code HTML sont nécessaires.
+      
+              ## Ajouter le CSS au début de la page HTML
+              
+              Cette méthode permet d’intégrer le CSS dans l’en-tête de votre document HTML. La **balise *style*** est donc **intégrée à l’élément *head*** et s’applique à la totalité du fichier. Les instructions de conception sont contenues dans le document mais sont distinctes du code HTML. Dans l’exemple ci-dessous, on applique la même commande que dans l’exemple précédent. En revanche, tous les titres *h1* seront formatés conformément aux instructions.</p>
+          </div>
+
+
+
+      </div>
+
+
+      <div>
+        <img src="images/space.jpg" alt="Description de l'image" >
+
+        <img src="images/space2.jpg" alt="Description de l'image" >
+
+        <img src="images/space2.jpg" alt="Description de l'image" >
+
+      </div>
+ 
+
+
+      <div class="formulaire">
+
+        <form>
+
+          <h3 > Contactez-moi</h3>
+
+          <label >Nom</label>
+          <input>
+      
+          <label >Mail</label>
+          <input>
+    
+          <textarea rows="5" cols="33">
+            Votre message ici ...
+           </textarea>
+      
+          
+      
+          <button>Envoyer</button>
+        </form>
+      </div>
+
+      
+      <div>
+
+          
+        <ul>
+            <li> élément 1</li>
+            <li>élément 2</li>
+            <li>élément 3</li>
+        </ul>
+    
+        <ol>
+            <li>Élément 1</li>
+            <li>Élément 2</li>
+            <li>Élément 3</li>
+        </ol>
+
+      </div>
+
+      <h2 class="secondary">Musicienne</h2>
+
+      <p id="cadre">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur minus tempore quas quis ab illo itaque alias deleniti at iste suscipit libero iusto voluptatibus accusamus, temporibus adipisci earum doloribus.</p>
+ 
+  
+  
+    
+  
+      <a href="https://gfp-formations.com/">GFP formations</a>
+
+      <input type="text" name="test" id="">
+
+      <div class="container">
+        <div id="1"> Je suis un bloc de texte 1 </div>
+        <div id="2"> Je suis aussi un bloc de texte mais j'ai l'ID 2</div>
+        <div id="3"> Je suis le numéro 3</div>
+
+      </div>
+
+      <table>
+        <tr>
+          <th>Nom</th>
+          <th>Prénom</th>
+          <th>Age</th>
+          <th>Mail</th>
+          
+        </tr>
+     
+  
+        <tr>
+          <td>Giraud</td>
+          <td>Pierre</td>
+          <td>28</td>
+          <td>pierre.giraud@edhec.com</td>
+        </tr>
+
+        <tr>
+          <td>Joly</td>
+          <td>Pauline</td>
+          <td>27</td>
+          <td>pjl@gmail.com</td>
+        </tr>
+      </table>
+
+      <video width="640" height="480" controls>
+       <source src="video/panicattack.mov">
+        Votre navigateur ne supporte pas la balise vidéo.
+      </video>
+    
+
+      <audio controls>
+        <source src="audio/obsession.wav" type="audio/wav">
+        Votre navigateur ne supporte pas la balise audio.
+      </audio>
+    
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Wl_dTuyuCRo?si=tJbqnwXZiKNbbvFx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5OhG7shUD0xgQMirbRAipe?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    
+    
+
+    </main>
+
+
+    <footer>
+      <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+    </footer>
+
+
+
+
+
+ </body>
+</html>
+
